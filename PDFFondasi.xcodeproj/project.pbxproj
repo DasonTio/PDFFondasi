@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF91860A2CEC8A2A004B2A69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9186042CEC8A2A004B2A69 /* Preview Assets.xcassets */; };
+		EF91860B2CEC8A2A004B2A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9186062CEC8A2A004B2A69 /* Assets.xcassets */; };
+		EF91860C2CEC8A2A004B2A69 /* PDFPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186072CEC8A2A004B2A69 /* PDFPaperView.swift */; };
+		EF91860D2CEC8A2A004B2A69 /* PDFFondasiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186082CEC8A2A004B2A69 /* PDFFondasiApp.swift */; };
+		EF9186102CEC8A7D004B2A69 /* PDFFondasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91860E2CEC8A7D004B2A69 /* PDFFondasiTests.swift */; };
+		EF9186142CEC8A80004B2A69 /* PDFFondasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186112CEC8A80004B2A69 /* PDFFondasiUITests.swift */; };
+		EF9186152CEC8A80004B2A69 /* PDFFondasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186122CEC8A80004B2A69 /* PDFFondasiUITestsLaunchTests.swift */; };
+		EF9186172CEC9A6B004B2A69 /* FloorPlanCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186162CEC9A66004B2A69 /* FloorPlanCanvasView.swift */; };
+		EF9186192CEC9B37004B2A69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186182CEC9B32004B2A69 /* ContentView.swift */; };
+		EF91861C2CEC9B80004B2A69 /* View+ExportToPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91861B2CEC9B7C004B2A69 /* View+ExportToPDF.swift */; };
+		EF91861F2CEC9C55004B2A69 /* PDFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91861E2CEC9C53004B2A69 /* PDFManager.swift */; };
+		EF9186212CEC9E8F004B2A69 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186202CEC9E8C004B2A69 /* ActivityView.swift */; };
+		EF9186232CEC9EAE004B2A69 /* Divider+PDFDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186222CEC9E9E004B2A69 /* Divider+PDFDivider.swift */; };
+		EF9186262CECA648004B2A69 /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9186252CECA644004B2A69 /* View+CornerRadius.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF9185E82CEC8A25004B2A69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +44,21 @@
 		EF9185D72CEC8A23004B2A69 /* PDFFondasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFFondasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9185E72CEC8A25004B2A69 /* PDFFondasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFFondasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9185F12CEC8A25004B2A69 /* PDFFondasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFFondasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9186042CEC8A2A004B2A69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF9186062CEC8A2A004B2A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9186072CEC8A2A004B2A69 /* PDFPaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPaperView.swift; sourceTree = "<group>"; };
+		EF9186082CEC8A2A004B2A69 /* PDFFondasiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFondasiApp.swift; sourceTree = "<group>"; };
+		EF91860E2CEC8A7D004B2A69 /* PDFFondasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFondasiTests.swift; sourceTree = "<group>"; };
+		EF9186112CEC8A80004B2A69 /* PDFFondasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFondasiUITests.swift; sourceTree = "<group>"; };
+		EF9186122CEC8A80004B2A69 /* PDFFondasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFondasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF9186162CEC9A66004B2A69 /* FloorPlanCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanCanvasView.swift; sourceTree = "<group>"; };
+		EF9186182CEC9B32004B2A69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF91861B2CEC9B7C004B2A69 /* View+ExportToPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ExportToPDF.swift"; sourceTree = "<group>"; };
+		EF91861E2CEC9C53004B2A69 /* PDFManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFManager.swift; sourceTree = "<group>"; };
+		EF9186202CEC9E8C004B2A69 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		EF9186222CEC9E9E004B2A69 /* Divider+PDFDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Divider+PDFDivider.swift"; sourceTree = "<group>"; };
+		EF9186252CECA644004B2A69 /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF9185D92CEC8A23004B2A69 /* PDFFondasi */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PDFFondasi;
-			sourceTree = "<group>";
-		};
-		EF9185EA2CEC8A25004B2A69 /* PDFFondasiTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PDFFondasiTests;
-			sourceTree = "<group>";
-		};
-		EF9185F42CEC8A25004B2A69 /* PDFFondasiUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PDFFondasiUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF9185D42CEC8A23004B2A69 /* Frameworks */ = {
@@ -75,9 +88,9 @@
 		EF9185CE2CEC8A23004B2A69 = {
 			isa = PBXGroup;
 			children = (
-				EF9185D92CEC8A23004B2A69 /* PDFFondasi */,
-				EF9185EA2CEC8A25004B2A69 /* PDFFondasiTests */,
-				EF9185F42CEC8A25004B2A69 /* PDFFondasiUITests */,
+				EF9186092CEC8A2A004B2A69 /* PDFFondasi */,
+				EF91860F2CEC8A7D004B2A69 /* PDFFondasiTests */,
+				EF9186132CEC8A80004B2A69 /* PDFFondasiUITests */,
 				EF9185D82CEC8A23004B2A69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +103,73 @@
 				EF9185F12CEC8A25004B2A69 /* PDFFondasiUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9186052CEC8A2A004B2A69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF9186042CEC8A2A004B2A69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF9186092CEC8A2A004B2A69 /* PDFFondasi */ = {
+			isa = PBXGroup;
+			children = (
+				EF9186242CEC9ECE004B2A69 /* Components */,
+				EF91861D2CEC9C4E004B2A69 /* Manager */,
+				EF91861A2CEC9B77004B2A69 /* Extensions */,
+				EF9186052CEC8A2A004B2A69 /* Preview Content */,
+				EF9186062CEC8A2A004B2A69 /* Assets.xcassets */,
+				EF9186182CEC9B32004B2A69 /* ContentView.swift */,
+				EF9186072CEC8A2A004B2A69 /* PDFPaperView.swift */,
+				EF9186082CEC8A2A004B2A69 /* PDFFondasiApp.swift */,
+			);
+			path = PDFFondasi;
+			sourceTree = "<group>";
+		};
+		EF91860F2CEC8A7D004B2A69 /* PDFFondasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF91860E2CEC8A7D004B2A69 /* PDFFondasiTests.swift */,
+			);
+			path = PDFFondasiTests;
+			sourceTree = "<group>";
+		};
+		EF9186132CEC8A80004B2A69 /* PDFFondasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9186112CEC8A80004B2A69 /* PDFFondasiUITests.swift */,
+				EF9186122CEC8A80004B2A69 /* PDFFondasiUITestsLaunchTests.swift */,
+			);
+			path = PDFFondasiUITests;
+			sourceTree = "<group>";
+		};
+		EF91861A2CEC9B77004B2A69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF9186222CEC9E9E004B2A69 /* Divider+PDFDivider.swift */,
+				EF91861B2CEC9B7C004B2A69 /* View+ExportToPDF.swift */,
+				EF9186252CECA644004B2A69 /* View+CornerRadius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF91861D2CEC9C4E004B2A69 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EF91861E2CEC9C53004B2A69 /* PDFManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EF9186242CEC9ECE004B2A69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EF9186202CEC9E8C004B2A69 /* ActivityView.swift */,
+				EF9186162CEC9A66004B2A69 /* FloorPlanCanvasView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF9185D92CEC8A23004B2A69 /* PDFFondasi */,
 			);
 			name = PDFFondasi;
 			packageProductDependencies = (
@@ -130,9 +207,6 @@
 			dependencies = (
 				EF9185E92CEC8A25004B2A69 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				EF9185EA2CEC8A25004B2A69 /* PDFFondasiTests */,
-			);
 			name = PDFFondasiTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +226,6 @@
 			);
 			dependencies = (
 				EF9185F32CEC8A25004B2A69 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				EF9185F42CEC8A25004B2A69 /* PDFFondasiUITests */,
 			);
 			name = PDFFondasiUITests;
 			packageProductDependencies = (
@@ -212,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF91860A2CEC8A2A004B2A69 /* Preview Assets.xcassets in Resources */,
+				EF91860B2CEC8A2A004B2A69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF91861C2CEC9B80004B2A69 /* View+ExportToPDF.swift in Sources */,
+				EF91860C2CEC8A2A004B2A69 /* PDFPaperView.swift in Sources */,
+				EF91860D2CEC8A2A004B2A69 /* PDFFondasiApp.swift in Sources */,
+				EF91861F2CEC9C55004B2A69 /* PDFManager.swift in Sources */,
+				EF9186212CEC9E8F004B2A69 /* ActivityView.swift in Sources */,
+				EF9186192CEC9B37004B2A69 /* ContentView.swift in Sources */,
+				EF9186262CECA648004B2A69 /* View+CornerRadius.swift in Sources */,
+				EF9186232CEC9EAE004B2A69 /* Divider+PDFDivider.swift in Sources */,
+				EF9186172CEC9A6B004B2A69 /* FloorPlanCanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9186102CEC8A7D004B2A69 /* PDFFondasiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9186142CEC8A80004B2A69 /* PDFFondasiUITests.swift in Sources */,
+				EF9186152CEC8A80004B2A69 /* PDFFondasiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +489,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +519,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
