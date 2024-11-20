@@ -12,11 +12,13 @@ struct MaterialSD: Identifiable{
     public let image: String;
     public let brand: String;
     public let name: String;
+    public let tag: String;
     
-    init(image: String, brand: String, name: String) {
+    init(image: String, brand: String, name: String, tag: String = "") {
         self.image = image
         self.brand = brand
         self.name = name
+        self.tag = tag
     }
 }
 
@@ -25,6 +27,7 @@ struct PDFPaperView: View {
     @State private var showPDF = false
     @State private var pdfData: Data?
     private var spacing:CGFloat = 20;
+    
     @State private var data = [
         MaterialSD(
             image: "AFRICA-BEIGE",
@@ -111,6 +114,20 @@ struct PDFPaperView: View {
                     materialRowView(material: val)
                 }
             }
+            
+//            Table(data){
+//                TableColumn("Tag", value:\.tag)
+//                TableColumn("Brand", value: \.brand)
+//                TableColumn("Type", value: \<#Root#>.type)
+//                TableColumn("Color", value: \.color)
+//                TableColumn("Area(m2)", value: \.area)
+//                TableColumn("Waste(m2)", value: \.waste)
+//                TableColumn("Usage", value: \.usage)
+//                TableColumn("Unit", value: \.unit)
+//                TableColumn("Note", value: \.note)
+//            }
+            
+            
 
         }
         .foregroundStyle(.text)
